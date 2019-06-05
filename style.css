@@ -11,16 +11,19 @@ body{
 }
 
 header{
+  align-items: center;
   background-color: black;
   display: flex;  
   grid-area: header;
   justify-content: center;
 }
 header div{
+  align-items: center;
   background-color: #a5a8b1;
   border-radius: 10px;
   display: flex;
   justify-content: center;
+  height: 100px;
   width: 60%;
 }
 header div img{
@@ -85,4 +88,18 @@ aside p span{
 footer{
   grid-area: footer;
   background-color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer div{
+  width: 150px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer div img{
+  width: 30px;
 }
