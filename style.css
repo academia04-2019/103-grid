@@ -30,10 +30,28 @@ header div img{
   width: 100px;
   height: 100px;
 }
+
 nav{
+  align-items: center;
+  background-color: #f67834;
+  display: flex;
+  justify-content: space-around;
   grid-area: nav;
-  background-color: blue;
 }
+
+nav a{
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover{
+  color: white;
+  font-weight: bolder;
+}
+
 section{
   grid-area: section;
   background-color: green;
