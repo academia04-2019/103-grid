@@ -14,8 +14,21 @@ body{
 }
 
 header{
+  background-color: black;
+  display: flex;  
   grid-area: header;
-  background-color: red;
+  justify-content: center;
+}
+header div{
+  background-color: #a5a8b1;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+header div img{
+  width: 100px;
+  height: 100px;
 }
 nav{
   grid-area: nav;
