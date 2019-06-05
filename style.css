@@ -6,11 +6,8 @@ body{
                       'section section aside aside'
                       'footer footer footer footer';    
   grid-template-rows: 20vh 15vh 50vh 30vh; 
-  /* grid-template-columns: 10vw 30vw 40vw 20vw;*/
+  grid-template-columns: 25% 25% 25% 23.8%;
   background-color: black;
-  grid-gap: 5px;
-  /* grid-row-gap: 5px;
-  grid-column-gap: 5px; */
 }
 
 header{
@@ -53,8 +50,20 @@ nav a:hover{
 }
 
 section{
+  align-items: center;
+  background-color: white;
+  display: flex;
+  justify-content: center;
   grid-area: section;
-  background-color: green;
+}
+
+section img{
+  border-radius: 100%;
+  width: 300px;
+}
+
+section img:hover{
+  width: 310px;
 }
 aside{
   grid-area: aside;
